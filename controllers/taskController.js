@@ -16,7 +16,7 @@ exports.createTask = async (req, res) => {
         console.error('Error creating task:', error);
         res.status(500).json({ message: 'Server error', error: error.message });
     }
-};
+};S
 
 exports.getTasks = async (req, res) => {
     // Destructure query parameters
